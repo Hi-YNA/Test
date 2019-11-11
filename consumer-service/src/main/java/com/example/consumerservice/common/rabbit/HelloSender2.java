@@ -20,4 +20,6 @@ public class HelloSender2 {
         template.convertAndSend(QUEUE_NAME,"hello,rabbitQueueName2");
     }
 
+    //测试暂存
+
 }
